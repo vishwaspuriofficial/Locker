@@ -82,8 +82,8 @@ def recoveryEmail(email):
   _client.changeInfoInDB()
 
   port = 465
-  sender = "hhacketthon@gmail.com"
-  password = "dgGYgf3627"
+  sender = "" #Host email here
+  password = "" #Host password here
   recieve = email
 
   message = f"""Subject: Reset Password\n\n
